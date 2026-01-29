@@ -1,0 +1,930 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(https://plus.unsplash.com/premium_photo-1673637380658-4144fd3fa160?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-image: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin:20px; */
+    background-color: antiquewhite ;
+    padding: 10px 20px;
+    position: relative;
+}
+ul{
+    display: flex;
+    position: relative;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+    margin-right: 20px;
+    
+}
+
+.home-info {
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+.home-page{
+    height: 100vh;
+    background-image: url(https://themewagon.github.io/Koppee/img/carousel-2.jpg);
+    background-image: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+.red{
+    display: flex;
+    justify-content: space-around;
+    margin: px;
+    flex: wrap;
+
+
+}
+.about-info{
+    text-align: center;
+    margin: px;
+    padding: 15px;
+    
+
+
+
+}
+.about-info h2{
+    font-size: xx-large;
+}
+.about-info-left{
+    border: 1px solid black;
+    width: 18vw;
+    border: none;
+    padding: 15px;
+}
+.right{
+    border: 1px solid black;
+    width: 18vw;
+    border: none;
+}
+h1{
+    padding: 5px;
+    color: saddlebrown;
+    
+}
+h4{
+    padding: 4px;
+}
+.about-page button{
+    margin: 6px;
+    padding:4px ;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+}
+a{text-decoration: none;
+    color: black;
+
+}
+.habita{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    padding-left:10%;
+    padding-top:10px;
+    padding-bottom: 15px;
+    background-color: antiquewhite;
+    
+
+}
+.services-info{
+    text-align:center;
+    padding: 15PX;
+    
+}
+.fast{
+    display:flex ;
+    border: 1px solid black;
+    width: 35vw;
+    border: none;
+    }
+.services-info h2{
+    font-size: xx-large;
+}   
+.blue{
+    text-align: center;
+    height: 100vh;
+    font-size: xx-large;
+    
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}  
+.blue input{
+    width: 15vw;
+    height: 5vh;
+    padding: 4px;
+
+
+}  
+.blue button{
+    width: 5vw;
+    height:5vh ;
+    background-color: orange;
+}     
+.menu-info{
+    text-align: center;
+    font-size: large;
+    margin: 25px;
+    padding: 20px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}
+.profile img{
+    border-radius: 50px;
+}
+.profile{
+    display: flex;
+    padding: 15px;
+}
+.green-right{
+    flex-direction: column;
+}
+.pages-info{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 75vw;
+    margin-left:120px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: url(https://images.unsplash.com/photo-1621135177072-57c9b6242e7a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-image: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+    
+}
+.rdx{
+    border: 1px solid black;
+    width: 30vw;
+    border: none;
+
+}
+.udx input{
+    margin: 10px;
+    width: 18vw;
+    height: 6vh;
+    border: none;
+    border: 1px solid orangered;
+    padding: 5px;
+ 
+}
+.udx button{
+    margin: 10px;
+    width: 18vw;
+    height:6vh ;
+    background-color: orangered;
+}
+.yellow{
+    text-align: center;
+    font-size: larger;
+
+    
+}
+.hea{
+ display: flex;
+ justify-content: space-around;
+ background-color: antiquewhite;
+
+
+}
+#out{
+    border: 1px solid black;
+    width: 25vw;
+    border: none;
+
+}
+.contant-info{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0b0b0b;
+    padding: 15px;
+    color: white;
+    
+    
+}
+.cont{
+    border: 1px solid black;
+    border:none;
+    padding: 10px;
+}
+.cont input{
+    margin: 10px;
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    padding: 5px;
+    
+}
+.cont button{
+    margin: 10px;
+    width: 5vw;
+    height:5vh ;
+    border-radius: 10px;
+    background-color: orangered;
+
+}
+body{
+    background-color: antiquewhite;;
+}.cont h3{
+    padding: 4px;
+}
+.habita p{
+    padding: 10px;
+}
+.habita img{
+    border-radius: 10px;
+}
+.menu-info{
+    font-size: larger;
+}
+
+
+.testimonial{
+    margin: 45px;
+    padding: 10px;
+}
+i{
+    border: 1px solid black;
+    
+}
+
+
+
+i:hover{
+    cursor:pointer;
+    /* color:white; */
+    border-color: white;
+
+}
+
+
+.services-info{
+    background-color:antiquewhite;;
+    
+}
+.about-page{
+    background-color: antiquewhite;
+}
+.blue{
+    background: none;
+}
+.menu-page{
+    background-color: antiquewhite;
+}
+.yellow{
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+.cont p{
+    padding: 5px;
+
+}
+.profile p{
+    padding-left: 10px;
+}
+.profile h3{
+    padding-left: 10px;
+}
+.profile h4{
+    padding-left:10px ;
+}
+.habita h2{
+    padding-left:10px ;
+}
+.cont a{
+    text-decoration: none;
+    color: white;
+}
+header button{
+    width:10vw;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: saddlebrown;
+    border: none;
+
+}
+#s{
+    color: white;
+    text-align: center;
+    background-color: #0b0b0b;
+}
+
+/* ===== DROPDOWN MENU (CSS ONLY) ===== */
+li {
+    position: relative;
+}
+
+li > a {
+    display: block;
+    padding: 10px 0;
+}
+
+/* Dropdown submenu list */
+li > ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    min-width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 1000;
+    margin-top: 0;
+}
+
+/* Show dropdown on hover */
+li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+li ul li {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li ul li a {
+    padding: 10px 15px;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+li ul li a:hover {
+    background-color: #f5f5f5;
+    color: saddlebrown;
+    font-weight: bold;
+}
+
+/* ===== HAMBURGER MENU (CSS ONLY) ===== */
+
+/* Hide hamburger checkbox */
+.hamburger-toggle {
+    display: none;
+}
+
+/* Hamburger icon styling */
+.hamburger-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.hamburger-icon span {
+    width: 25px;
+    height: 3px;
+    background-color: saddlebrown;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+}
+
+/* Hamburger animation on checked */
+.hamburger-toggle:checked ~ .hamburger-icon span:nth-child(1) {
+    transform: rotate(45deg) translate(10px, 10px);
+}
+
+.hamburger-toggle:checked ~ .hamburger-icon span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-toggle:checked ~ .hamburger-icon span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+/* Show navbar when hamburger is checked */
+.hamburger-toggle:checked ~ .navbar {
+    display: block;
+}
+
+.navbar {
+    display: flex;
+}
+
+/* ===== MEDIA QUERIES ===== */
+
+/* Large Screens (Desktop) */
+@media (min-width: 1200px) {
+    header {
+        padding: 15px 30px;
+    }
+    
+    .habita {
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 10%;
+    }
+    
+    .home-info {
+        font-size: xx-large;
+    }
+}
+
+/* Medium Screens (Tablets) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    header h2 {
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+    
+    ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    li {
+        padding: 8px;
+        margin-right: 10px;
+    }
+    
+    header button {
+        width: 20vw;
+        margin-top: 10px;
+    }
+    
+    .habita {
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 5%;
+        gap: 20px;
+    }
+    
+    .fast {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .box {
+        flex-direction: column;
+    }
+    
+    .profile {
+        flex-direction: row;
+        margin-bottom: 15px;
+    }
+    
+    .pages-info {
+        flex-direction: column;
+        width: 90vw;
+        margin-left: 5vw;
+    }
+    
+    .rdx, .udx {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .blue input {
+        width: 50vw;
+    }
+    
+    .blue button {
+        width: 20vw;
+    }
+    
+    .contant-info {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .cont {
+        width: 100%;
+    }
+    
+    .cont input {
+        width: 70vw;
+    }
+    
+    .cont button {
+        width: 20vw;
+    }
+    
+    .hea {
+        flex-direction: column;
+    }
+    
+    #out {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Small Screens (Mobile) */
+@media (max-width: 767px) {
+    header {
+        flex-direction: row;
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header h2 {
+        font-size: 20px;
+        margin-bottom: 0;
+        flex-shrink: 0;
+    }
+    
+    /* Show hamburger icon on mobile */
+    .hamburger-icon {
+        display: flex;
+        order: 2;
+    }
+    
+    /* Hide navbar by default on mobile */
+    .navbar {
+        display: none !important;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background-color: antiquewhite;
+        border-top: 1px solid #ddd;
+        width: 100%;
+        padding: 10px 0;
+        z-index: 999;
+    }
+    
+    /* Show navbar when hamburger is checked */
+    .hamburger-toggle:checked ~ .navbar {
+        display: flex !important;
+    }
+    
+    .navbar ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .navbar li {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .navbar li a {
+        display: block;
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+    
+    .navbar li > ul {
+        position: static;
+        opacity: 0;
+        visibility: hidden;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        box-shadow: none;
+        border: none;
+        background-color: #f5f5f5;
+        min-width: 100%;
+    }
+    
+    /* Show dropdown when parent is hovered */
+    .navbar li:hover > ul {
+        opacity: 1;
+        visibility: visible;
+        max-height: 500px;
+    }
+    
+    .navbar li ul li {
+        border: none;
+        padding-left: 20px;
+    }
+    
+    .navbar li ul li a {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    
+    header button {
+        width: 40vw;
+        height: 4vh;
+        margin-top: 0;
+        font-size: 12px;
+        order: 3;
+        margin-left: 10px;
+    }
+    
+    .home-page {
+        height: 60vh;
+    }
+    
+    .home-info {
+        font-size: large;
+        height: 60vh;
+    }
+    
+    .home-info h1 {
+        font-size: 32px;
+    }
+    
+    .red {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+    
+    .about-info-left, .right, .img {
+        width: 90vw;
+        margin-bottom: 20px;
+    }
+    
+    .about-page button {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+    
+    .habita {
+        grid-template-columns: 1fr;
+        padding-left: 5%;
+        padding-right: 5%;
+        gap: 15px;
+    }
+    
+    .fast {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .fast img {
+        width: 80%;
+        height: auto;
+    }
+    
+    .services-info h2 {
+        font-size: large;
+    }
+    
+    .services-info h3 {
+        font-size: 14px;
+    }
+    
+    .blue {
+        height: auto;
+        padding: 30px 10px;
+        font-size: large;
+    }
+    
+    .blue input {
+        width: 80vw;
+        height: 4vh;
+    }
+    
+    .blue button {
+        width: 40vw;
+        height: 4vh;
+        font-size: 12px;
+    }
+    
+    .menu-info {
+        font-size: medium;
+        padding: 10px;
+    }
+    
+    .box {
+        flex-direction: column;
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    .box-left {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .green-right {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .profile {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .profile img {
+        margin-bottom: 10px;
+        width: 80px;
+        height: 80px;
+    }
+    
+    .pages-info {
+        flex-direction: column;
+        width: 95vw;
+        margin-left: 2.5vw;
+        padding: 15px;
+    }
+    
+    .rdx {
+        width: 100%;
+        border: none;
+        margin-bottom: 15px;
+    }
+    
+    .rdx h1 {
+        font-size: 24px;
+    }
+    
+    .udx {
+        width: 100%;
+    }
+    
+    .udx input {
+        width: 90vw;
+        height: 5vh;
+        margin: 8px 0;
+    }
+    
+    .udx button {
+        width: 90vw;
+        height: 5vh;
+        font-size: 14px;
+    }
+    
+    .yellow {
+        padding: 10px;
+        font-size: medium;
+    }
+    
+    .hea {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    #out {
+        width: 100%;
+        border: none;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+    
+    .testimonial {
+        margin: 10px;
+        padding: 5px;
+    }
+    
+    .contant-info {
+        flex-direction: column;
+        padding: 10px;
+        gap: 15px;
+    }
+    
+    .cont {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .cont h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .cont h3 {
+        font-size: 14px;
+    }
+    
+    .cont p {
+        font-size: 12px;
+    }
+    
+    .cont input {
+        width: 80vw;
+        height: 4vh;
+    }
+    
+    .cont button {
+        width: 30vw;
+        height: 4vh;
+        font-size: 12px;
+    }
+    
+    .cont i {
+        margin: 5px;
+        font-size: 20px;
+    }
+}
+
+/* Extra Small Screens (Small Mobile) */
+@media (max-width: 480px) {
+    header h2 {
+        font-size: 18px;
+    }
+    
+    ul {
+        margin-bottom: 5px;
+    }
+    
+    li {
+        padding: 3px;
+        margin-right: 2px;
+        font-size: 11px;
+    }
+    
+    li a {
+        font-size: 11px;
+        padding: 5px 0;
+    }
+    
+    header button {
+        width: 50vw;
+        height: 3.5vh;
+        font-size: 11px;
+    }
+    
+    .home-info h1 {
+        font-size: 24px;
+    }
+    
+    .home-info h3 {
+        font-size: 16px;
+    }
+    
+    .habita {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    .fast {
+        padding: 10px;
+    }
+    
+    .fast img {
+        width: 70%;
+    }
+    
+    .profile img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .blue h1 {
+        font-size: 20px;
+    }
+    
+    .blue h2 {
+        font-size: 16px;
+    }
+    
+    .rdx h1 {
+        font-size: 20px;
+    }
+    
+    .rdx h2 {
+        font-size: 16px;
+    }
+}
+
+
